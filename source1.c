@@ -4,11 +4,9 @@
 #include <time.h>
 int main() {
     srand(time(NULL));
-    printf("Hello from source1!
-");
+    printf("Hello from source1!");
     int sleep_time = rand() % 21 + 10;
     sleep(sleep_time);
-    printf("Slept for %d seconds in source1!
-", sleep_time);
+    printf("Slept for %d seconds in source1!", sleep_time);
     return 0;
 }
